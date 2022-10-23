@@ -11,7 +11,11 @@ export function Index() {
    *
    * Note: The corresponding styles are in the ./index.@emotion/styled file.
    */
-  return <StyledPage></StyledPage>;
+  return (
+    <StyledPage>
+      <div>hi</div>
+    </StyledPage>
+  );
 }
 
 export default Index;
